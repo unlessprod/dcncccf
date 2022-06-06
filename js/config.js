@@ -7,7 +7,7 @@ let config = {
   showDelay: 4.3, 
 
   // Заголовок
-  title: 'Dxrk ダーク',
+  title: 'Dxrk ダ',
 
   // Социальные сети
   social: {

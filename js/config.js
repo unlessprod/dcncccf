@@ -1,15 +1,15 @@
 let config = {
 
-  // Задержка загрузки (1 секунда)
+  // Delay
   preloaderDelay: 1,
 
-  // Задержка появления видео (4.2 секунды)
+  // Delaysz
   showDelay: 4.3, 
 
-  // Заголовок
+  // Titles
   title: 'Dxrk ダ',
 
-  // Социальные сети
+  // Networks
   social: {
     telegram: '@ddguard',
     steam: 'ddguard',
@@ -20,29 +20,29 @@ let config = {
 
 
 
-  // Цвет иконки загрузки
+  // Jdjdjs
   preloaderColor: '#f5323c',
 
 
-  // Цвет кнопки play
+  // Djcjsjjqd
   playButtonColor: '#f5323c',
-  // Цвет тени кнопки play
+  // Ancjajxjdjc
   playButtonShadowColor: 'rgba(255, 0, 55, 5.0)',
 
 
-  // Цвет заголовка
+  // Ajdjajcks
   titleColor: '#FF0000',
-  // Цвет тени загаловка
+  // Sjcjsjxjs
   titleShadowColor: 'rgba(255, 0, 55, 0.6)',
 
 
-  // Текст копирайта
-  copyrightText: 'soon..',
-  // Цвет копирайта
+  // Ajxjsjx
+  copyrightText: 'welcome..',
+  // Sjcjsjd
   copyrightTextColor: '#f5323c',
 
-  // Цвет иконок социальных сетей
+  // Sjcjsjdj
   socialColor: '#FF0000',
-  // Цвет тени иконок социальных сетей
+  // Ajxjsjxnsn
   socialShadowColor: 'rgba(255, 255, 255, 0.2)',
 }

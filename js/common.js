@@ -1,6 +1,5 @@
 /* 
 xd
-
 */
 
 const awesomeEffect = dict => {

@@ -11,9 +11,10 @@ let config = {
 
   // qq
   social: {
-    telegram: '@ddguard',
-    instagram: 'ddguard',
-    vk: 'ddguard',
+    telegram: '@ghtxfsh',
+    steam: '',
+    vk: 'ghtxfsh',
+  },
   },
 
 

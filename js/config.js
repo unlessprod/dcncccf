@@ -1,13 +1,13 @@
 let config = {
 
   // qq
-  preloaderDelay: 1,
+  preloaderDelay: 3.5,
 
   // qq
-  showDelay: 3, 
+  showDelay: 7.5, 
 
   // qq
-  title: 'Dxrk ★',
+  title: 'l19u1d',
 
   // qq
   social: {
@@ -18,13 +18,15 @@ let config = {
 
 
 
+
+
   // qq
   preloaderColor: '#f5323c',
 
 
   // qq
   playButtonColor: '#f5323c',
-  // qq
+  // qq play
   playButtonShadowColor: 'rgba(255, 0, 55, 5.0)',
 
 
@@ -35,7 +37,7 @@ let config = {
 
 
   // qq
-  copyrightText: 'Welcome Here!',
+  copyrightText: 'h8allh8allh8all',
   // qq
   copyrightTextColor: '#f5323c',
 

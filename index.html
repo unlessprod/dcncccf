@@ -1,121 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>ibo aden</title>
-    <link rel="stylesheet" href="css/main.css" />
-	<link rel="shortcut icon" href="favicon/favicon.ico "type="image/ico">
-<!-- Yandex.Metrika counter -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Welcome!</title>
+  <meta name="description" content="fullshow">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="shortcut icon" href="img/2.ico" type="image/ico">
+      <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(89311395, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        ecommerce:"dataLayer"
-   });
+  ym(70810039, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true
+  });
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/89311395" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/70810039" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-  </head>
-  <body>
-    <div class="preloader">
-     <div class="preloader__row">
-      <div class="preloader__item"></div>
-       <div class="preloader__item"></div>
-   </div>
- </div>
+</head>
 
-    <div id="ibo-page">
-      <div class="wrapper">
-        <div class="background">
-          <video preload muted ref="background-video" id="background-video">
-            <source src="video/movie-" type="video/mp4" />
-          </video>
- <script type="text/javascript">
-var poster = document.querySelector('#background-video source');
-var number = Math.floor(Math.random() * 2) + 1;
-poster.src += number +'.mp4';
-</script>
-        </div>
-        <div class="ibo-page-copyright" :style="CopyRightStyle">
-          <a href="https://spotify-github-profile.vercel.app/api/view?uid=pzlea893q20mpri2uvo45g5y0&redirect=true"><img src="https://spotify-github-profile.vercel.app/api/view.svg?uid=pzlea893q20mpri2uvo45g5y0&cover_image=true&theme=natemoo-re&bar_color=ff0000&bar_color_cover=false" alt=""></a>
-        </div>
+<body>
+  <div class="preloader">
+    <div style="PreloaderStyle" class="preloader-circle">
+    </div>
+  </div>
 
-        <div class="container">
-          <div class="ibo-page-wrapper">
-            <div class="ibo-page-info">
-              <div
-                class="ibo-page-info-play"
-                :class=" { 'is-playing': isPlaying }"
-                :style="PlayButtonStyle"
-                @click="startPlay"
-              >
-                Play
-              </div>
-              <div class="ibo-page-info-logo"></div>
-              <div
-                ref="title"
-                :class="{ 'title-visible': titleVisible }"
-                class="ibo-page-info-title"
-                :style="TitleStyle"
-              >
-                {{ title }}
-              </div>
-              <div
-                class="ibo-page-info-social"
-                :class="{ 'social-visible': titleVisible }"
-              >
-                <a
-                  v-for="(item, key) in social"
-                  :href="getSocialLink(key, item)"
-                  target="_blank"
-                  class="ibo-page-info-social-item"
-                >
-                  <span :style="SocialStyle" :class="'icon-' + key"></span>
-                </a>
-              </div>
-            </div> 
+  <div id="asif-page">
+    <div class="wrapper">
+      <div class="background">
+        <video preload muted ref="background-video" id="background-video">
+          <source src="videos/movie-" type="video/mp4" />
+        </video>
+      </div>
+      <div class="asif-page-copyright" :style="CopyRightStyle">
+        {{ copyrightText }}
+      </div>
+
+      <div class="container">
+        <div class="asif-page-wrapper">
+          <div class="asif-page-info">
+            <div class="asif-page-info-play" :class=" { 'is-playing': isPlaying }" :style="PlayButtonStyle"
+              @click="startPlay">
+              Play
+            </div>
+            <div class="asif-page-info-logo"></div>
+            <div ref="title" :class="{ 'title-visible': titleVisible }" class="asif-page-info-title"
+              :style="TitleStyle">
+              {{ title }}
+            </div>
+            <div class="asif-page-info-social" :class="{ 'social-visible': titleVisible }">
+              <a v-for="(item, key) in social" :href="getSocialLink(key, item)" target="_blank"
+                class="asif-page-info-social-item">
+                <span :style="SocialStyle" :class="'icon-' + key"></span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-	<script type="text/javascript">
-    window.onkeydown = function(evt) {
-        if(evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 116 || evt.keyCode == 73) return false;
-    };
-
-    window.onkeypress = function(evt) {
-        if(evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 116 || evt.keyCode == 73) return false;
-    };
-	
-function disableF5(e) { if ((e.which || e.keyCode) == 116) e.preventDefault(); };
-$(document).on("keydown", disableF5);
-</script>
-<script>
+  </div>
+  <!-- <script>
 document.oncontextmenu = function (e) { e.preventDefault(); return false; }
-</script>
- <script> let url = "videos/movie-" + random + '.mp4';
-		window.addEventListener('devtoolschange', event => {
-				window.location = url;
-    }); </script>
-	<script src="js/vue.js"></script>
-	<script src="js/config.js"></script>
-	<script src="js/common.js"></script>
-	<script src="js/index.js"></script>
-    <script>
-  window.onload = function () {
-    document.body.classList.add('loaded_hiding');
-    window.setTimeout(function () {
-      document.body.classList.add('loaded');
-      document.body.classList.remove('loaded_hiding');
-    }, 500);
-  }
-</script>
-  </body>
+</script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- <script src="js/snowfall.js"></script> -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.collectonme').hide();
+      //Start the snow default options you can also make it snow in certain elements, etc.
+      $(document).snowfall();
+    });
+  </script>
+  <script src="js/block.js"></script>
+  <script src="js/window.js"></script>
+  <script src="js/vue.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
 </html>

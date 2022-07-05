@@ -1,19 +1,19 @@
 let config = {
 
   // qq
-  preloaderDelay: 3.5,
+  preloaderDelay: 1,
 
   // qq
-  showDelay: 7.5, 
+  showDelay: 3, 
 
   // qq
-  title: 'l19u1d',
+  title: 'Dxrk ★',
 
   // qq
   social: {
-    telegram: '@ghtxfsh',
-    steam: '',
-    vk: 'ghtxfsh',
+    telegram: '@ddguard',
+    instagram: 'ddguard',
+    vk: 'ddguard',
   },
 
 
@@ -26,7 +26,7 @@ let config = {
 
   // qq
   playButtonColor: '#f5323c',
-  // qq play
+  // qq
   playButtonShadowColor: 'rgba(255, 0, 55, 5.0)',
 
 
@@ -37,7 +37,7 @@ let config = {
 
 
   // qq
-  copyrightText: 'h8allh8allh8all',
+  copyrightText: 'Hello Here!',
   // qq
   copyrightTextColor: '#f5323c',
 

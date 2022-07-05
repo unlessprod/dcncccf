@@ -15,6 +15,7 @@ let config = {
     steam: '',
     vk: 'ghtxfsh',
   },
+
   },
 
 

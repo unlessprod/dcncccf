@@ -16,10 +16,6 @@ let config = {
     vk: 'ghtxfsh',
   },
 
-  },
-
-
-
 
 
   // qq

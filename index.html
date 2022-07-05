@@ -1,88 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Welcome!</title>
   <meta name="description" content="fullshow">
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" href="img/2.ico" type="image/ico">
-      <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  <script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-  ym(70810039, "init", {
-       clickmap:true,
-       trackLinks:true,
-       accurateTrackBounce:true
-  });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/70810039" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+   ym(54610852, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        ecommerce:"dataLayer"
+   });
+  </script><noscript>
+  <div><img src="https://mc.yandex.ru/watch/54610852" style=
+  "position:absolute; left:-9999px;" alt=""></div></noscript>
 </head>
-
 <body>
   <div class="preloader">
-    <div style="PreloaderStyle" class="preloader-circle">
-    </div>
+    <div style="PreloaderStyle" class="preloader-circle"></div>
   </div>
-
   <div id="asif-page">
     <div class="wrapper">
       <div class="background">
-        <video preload muted ref="background-video" id="background-video">
-          <source src="videos/movie-" type="video/mp4" />
-        </video>
+        <video preload="" muted="" ref="background-video" id=
+        "background-video"><source src="videos/movie-" type=
+        "video/mp4"></video>
       </div>
-      <div class="asif-page-copyright" :style="CopyRightStyle">
-        {{ copyrightText }}
+      <div class="asif-page-copyright">
+        <a href=
+        "https://github.com/kittinan/spotify-github-profile"><img src="https://spotify-github-profile.vercel.app/api/view?uid=p5wgp63ap3lh65uu33pvqy72w&cover_image=true&theme=natemoo-re&bar_color=53b14f&bar_color_cover=false)"
+        alt=""></a>
       </div>
-
       <div class="container">
         <div class="asif-page-wrapper">
           <div class="asif-page-info">
-            <div class="asif-page-info-play" :class=" { 'is-playing': isPlaying }" :style="PlayButtonStyle"
-              @click="startPlay">
+            <div class="asif-page-info-play">
               Play
             </div>
             <div class="asif-page-info-logo"></div>
-            <div ref="title" :class="{ 'title-visible': titleVisible }" class="asif-page-info-title"
-              :style="TitleStyle">
+            <div ref="title" class="asif-page-info-title">
               {{ title }}
             </div>
-            <div class="asif-page-info-social" :class="{ 'social-visible': titleVisible }">
-              <a v-for="(item, key) in social" :href="getSocialLink(key, item)" target="_blank"
-                class="asif-page-info-social-item">
-                <span :style="SocialStyle" :class="'icon-' + key"></span>
-              </a>
+            <div class="asif-page-info-social">
+              <a v-for="(item, key) in social" target="_blank"
+              class="asif-page-info-social-item"></a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- <script>
+  </div><!-- <script>
 document.oncontextmenu = function (e) { e.preventDefault(); return false; }
 </script> -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <!-- <script src="js/snowfall.js"></script> -->
-  <script type="text/javascript">
+  <script src=
+  "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Снежок на сайте -->
+  <!-- <script src="https://fullshow.uz/main/js/snowfall.js"></script>
+<script type="text/javascript">
     $(document).ready(function () {
-      $('.collectonme').hide();
-      //Start the snow default options you can also make it snow in certain elements, etc.
-      $(document).snowfall();
+        $('.collectonme').hide();
+        //Start the snow default options you can also make it snow in certain elements, etc.
+        $(document).snowfall();
     });
-  </script>
-  <script src="js/block.js"></script>
-  <script src="js/window.js"></script>
-  <script src="js/vue.js"></script>
-  <script src="js/config.js"></script>
-  <script src="js/common.js"></script>
+</script> -->
+   
+  <script src="js/block.js"></script> 
+  <script src="js/window.js"></script> 
+  <script src="js/vue.js"></script> 
+  <script src="js/config.js"></script> 
+  <script src="js/common.js"></script> 
   <script src="js/index.js"></script>
 </body>
-
 </html>

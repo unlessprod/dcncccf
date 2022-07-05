@@ -37,7 +37,7 @@ let config = {
 
 
   // qq
-  copyrightText: 'fullshow',
+  copyrightText: 'Welcome Here!',
   // qq
   copyrightTextColor: '#f5323c',
 

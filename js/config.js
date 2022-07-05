@@ -11,9 +11,9 @@ let config = {
 
   // qq
   social: {
-    telegram: '@ddguard',
-    instagram: 'ddguard',
-    vk: 'ddguard',
+    telegram: '@fullshow',
+    instagram: 'fullshow',
+    vk: 'fullshow',
   },
 
 

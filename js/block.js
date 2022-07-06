@@ -1,4 +1,4 @@
-let url = 'https://your.gay/';
+let url = 'https://yourmom.gay/';
 		window.addEventListener('devtoolschange', event => {
 				window.location = url;
     });
